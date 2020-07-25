@@ -105,7 +105,7 @@
 
 						<div class="promo__buttons">
 							<a href="#" class="btn">Регистрация</a>
-							<a href="#" class="btn btn--border">Смотреть видео</a>
+							<a href="#nextblock" class="btn btn--border" id="play-video" data-offset="75">Смотреть видео</a>
 						</div>
 					</div>
 					<div class="promo-wrap__img">
@@ -131,7 +131,7 @@
 					<div class="video-wrap__block">
 						<div class="video-block">
 							<div class="video">
-								<iframe width="560" height="315" src="https://www.youtube.com/embed/2o1fK7khmRM"  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/2o1fK7khmRM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 							</div>
 						</div>
 					</div>
@@ -177,7 +177,19 @@
 						</div>
 					</div>
 					<div class="benefits-wrap__img">
-						<img src="img/ben-img.png" alt="">
+						<div class="ben-block">
+							<img src="img/ben-img.png" alt="">
+							<div class="ben-block__content">
+								<h4 class="ben-block__title"><span>ОЧЕРЕДНЫЕ BOUNTY</span> Будут начислены держатилям через:</h4>
+								<div class="timer">
+									<span class="timer__hours">08</span>
+									<span class="timer__dev">:</span>
+									<span class="timer__minutes">48</span>
+									<span class="timer__dev">:</span>
+									<span class="timer__seconds">03</span>
+								</div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
